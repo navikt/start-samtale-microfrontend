@@ -39,6 +39,10 @@
   border-radius: 4px 4px 12px 12px;
 }
 
+.link {
+  text-decoration: none !important;
+}
+
 .chevron {
   margin-right: 20px;
 }
