@@ -2,12 +2,12 @@ export const text = {
   card: {
     heading: {
       nn: "",
-      nb: "Start samtale",
+      nb: "Du kan få veiledning",
       en: "",
     },
     description: {
       nn: "",
-      nb: "Start samtale.",
+      nb: "Vi ønsker å bli bedre kjent med deg og situasjonen din, slik at du kan få veiledning som passer for deg.",
       en: "",
     },
   },
