@@ -1,15 +1,16 @@
 import { Panel } from "@navikt/ds-react";
 import styles from "./Komponent.module.css";
+import { LanguageContext } from "../provider/LanguageProvider";
+import { useContext } from "react";
+import { text } from "../translations/text";
 
-interface Props {
-  tekst: string;
-}
+const Komponent = () => {
+  const language = useContext(LanguageContext);
 
-const Komponent = ({ tekst }: Props) => {
   return (
     <div className={styles.komponent}>
       <Panel border>
-        <p>{tekst} 😊🎉</p>
+        <p>{text.card.description[language]}</p>
       </Panel>
     </div>
   );
