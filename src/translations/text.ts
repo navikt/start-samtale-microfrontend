@@ -7,7 +7,7 @@ export const text = {
     },
     description: {
       nn: "",
-      nb: "Vi ønsker å bli bedre kjent med deg og situasjonen din, slik at du kan få veiledning som passer for deg.",
+      nb: "Nå som du skal få arbeidsrettet oppfølging ønsker vi å bli bedre kjent med situasjonen din, slik at du kan få veiledning som passer for deg.",
       en: "",
     },
   },
